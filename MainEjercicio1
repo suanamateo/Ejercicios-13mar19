@@ -1,5 +1,13 @@
 
-// 1 - Pide un número y muestra si es positivo o negativo
+package com.cice.ejercicios;
+
+import java.util.Scanner;
+
+public class MainEjercicio1 {
+
+	public static void main(String[] args) {
+		 
+	// 1 - Pide un número y muestra si es positivo o negativo
 
 		int a = 0;
 		Scanner sc = new Scanner(System.in);
