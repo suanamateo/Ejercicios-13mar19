@@ -1,0 +1,15 @@
+package com.cice.ejercicios;
+
+public class MainEjercicio7 {
+
+	public static void main(String[] args) {
+		
+	// 7 -  Pinta la tabla de multiplicar de 2
+
+		for(int i = 2; i<=2; i++){
+			for(int j = 0; j<11; j++){
+				System.out.println(i + "x" + j + " = " + (i*j) );
+			}
+		}
+	}
+}
