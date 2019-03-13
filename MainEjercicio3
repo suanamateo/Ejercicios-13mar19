@@ -1,0 +1,20 @@
+package com.cice.ejercicios;
+
+import java.util.Scanner;
+
+public class MainEjercicio3 {
+
+	public static void main(String[] args) {
+		
+   // 3 - Programa Java que lea un nombre y muestre por pantalla:
+   // “Buenos dias nombre_introducido”
+
+		String nombre;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Introduce tu nombre");
+		nombre = sc.nextLine();
+		
+		System.out.println("Buenos días, "+nombre);		
+	}
+}
