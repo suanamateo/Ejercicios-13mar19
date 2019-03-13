@@ -1,0 +1,23 @@
+package com.cice.ejercicios;
+
+import java.util.Scanner;
+
+public class MainEjercicio6 {
+
+	public static void main(String[] args) {
+		
+	// 6 - Programa que lea un número entero y muestre si el número es múltiplo de 10.
+
+		int number = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Introduce un número");
+		number = sc.nextInt();
+		
+		if(number%10==0){
+			System.out.println("El número "+number+" es multiplo de 10");
+		}else{
+			System.out.println("El número "+number+" no es multiplo de 10");
+		}
+	}
+}
