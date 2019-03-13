@@ -1,0 +1,14 @@
+package com.cice.ejercicios;
+
+public class MainEjercicio4 {
+
+	public static void main(String[] args) {
+		
+    // 4-  Dado un String Muestra el numero de posiciones que tiene 
+
+	String nombre = "La vida es Bella y voy a por todas";
+	
+	System.out.println(nombre.length());
+		
+	}
+}
