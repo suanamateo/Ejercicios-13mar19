@@ -1,0 +1,41 @@
+package com.cice.ejercicios;
+
+import java.util.Scanner;
+
+public class MainEjercicio10 {
+
+	public static void main(String[] args) {
+		
+	// 10 - Dado un numero del 1 al 7 muestra el dia de la semana a que corresponde
+
+		int numero = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Introduce un numer del 1 al 7");
+		numero = sc.nextInt();
+		
+		switch (numero){
+		case 1: 
+			System.out.println("Soy el Lunes");
+			break;
+		case 2:
+			System.out.println("Soy el Martes");
+			break;
+		case 3: 
+			System.out.println("Soy el Miércoles");
+			break;
+		case 4: 
+			System.out.println("Soy el Jueves");
+			break;
+		case 5: 
+			System.out.println("Soy el Viernes");
+			break;
+		case 6: 
+			System.out.println("Soy el Sábado");
+			break;
+		case 7: 
+			System.out.println("Soy el Domingo");
+			break;
+		}
+	}
+}
