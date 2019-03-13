@@ -19,8 +19,6 @@ public class MainEjercicio1 {
 			System.out.println("El número "+ a +" es positivo");
 		}else{
 			System.out.println("El número "+ a +" es negativo");
-		}	
-		
-	}
-		
+		}		
+	}	
 }
