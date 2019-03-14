@@ -1,24 +1,21 @@
-
 package com.cice.ejercicios;
 
 import java.util.Scanner;
 
 public class MainEjercicio1 {
-
 	public static void main(String[] args) {
 		 
-	// 1 - Pide un número y muestra si es positivo o negativo
-
-		int a = 0;
+	// 1 - Pide un número y muestra si es positivo o negativo:
+		int num = 0;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Introduce un número");
-		a = sc.nextInt();
+		num = sc.nextInt();
 		
-		if(a >= 0){
-			System.out.println("El número "+ a +" es positivo");
+		if(num >= 0){
+			System.out.println("El número "+ num +" es positivo");
 		}else{
-			System.out.println("El número "+ a +" es negativo");
+			System.out.println("El número "+ num +" es negativo");
 		}		
 	}	
 }
