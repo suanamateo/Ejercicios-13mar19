@@ -1,8 +1,8 @@
-package com.cice.ejercicios;
+ackage com.cice.ejercicios;
 
 import java.util.Scanner;
 
-public class MainEjercicio9 {
+public class MainEjercicio09 {
 
 	public static void main(String[] args) {
 		
@@ -24,6 +24,6 @@ public class MainEjercicio9 {
 	    	 System.out.println("Si es un número primo");
 	    }else{
 	    	 System.out.println("No es un número primo");	    
-	    }   
-	}
+	   }   
+     }
 }
