@@ -1,0 +1,18 @@
+package com.cice.ejercicios;
+
+public class MainEjercicio08 {
+
+	public static void main(String[] args) {
+	
+	// 8 - Crea un Array de enteros de 100 posiciones y da valor a cada una de las 
+	// posiciones de manera descendente. (la posicion 0 seria =  100 y la 99 a 0)
+
+		int [] enteros = new int [101];
+		
+		for (int i = 100; i>=0; i--){
+			enteros [i] = i;
+			System.out.println("enteros : " + enteros[i]);		
+      
+		}	
+  }
+}
