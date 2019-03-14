@@ -2,7 +2,7 @@ package com.cice.ejercicios;
 
 import java.util.Scanner;
 
-public class MainEjercicio1 {
+public class MainEjercicio01 {
 	public static void main(String[] args) {
 		 
 	// 1 - Pide un número y muestra si es positivo o negativo:
