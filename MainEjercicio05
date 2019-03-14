@@ -2,7 +2,7 @@ package com.cice.ejercicios;
 
 import java.util.Scanner;
 
-public class MainEjercicio5 {
+public class MainEjercicio05 {
 
 	public static void main(String[] args) {
 		
