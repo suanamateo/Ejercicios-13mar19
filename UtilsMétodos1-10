@@ -1,0 +1,131 @@
+package com.cice.utils;
+
+public class Utils {
+
+// 11 - Crea una clase utils y genera un Método para cada una de las funcionalidades 
+//anteriores, luego llamarlos a todos desde el main y que muestre los resultados
+
+// 1 - MÉTODO : Pide un número y muestra si es positivo o negativo 
+	//Comprobamos que es positivo o negativo con un booleano
+	
+	public boolean numerosPosNeg(int num){
+		
+		if(num >= 0){
+			return true;
+		}else{
+			return false;
+	}			
+  }
+	
+// 2 - MÉTODO : Pide dos números por teclado, los suma y muestra el resultado
+// se puede indicar en el return numA+numB dado que se devuelve un entero, pero crear
+// la variable resultado es mejor, más visual
+	
+	public int suma(int numA, int numB){
+		
+		int resultado = numA + numB;
+	
+		return resultado;
+	}
+	
+// 3 - MÉTODO : Programa Java que lea un nombre y muestre por pantalla:
+//“Buenos dias nombre_introducido”	
+	
+	public String saludo (String nombre){
+		
+		String nomb = "Susana";
+		
+		return nomb;
+	}
+	
+// 4 - MÉTODO : Dado un String Muestra el numero de posiciones que tiene 
+	
+	public int tam (String frase){
+		
+		int tamanio = frase.length();
+			
+		return tamanio;
+	}
+
+// 5 - MÉTODO : Programa Java que lee un número entero y nos de el doble y el triple 
+// de ese número
+	
+	public int [] calculos (int numero){
+		
+		int [] resultado = new int [2];
+		resultado [0] = numero * 2;
+		resultado [1] = numero * 3;
+		
+		return resultado;	
+	}
+
+// 6 - MÉTODO : Programa que lea un número entero y muestre si el número es múltiplo de 10.
+	
+	public boolean multiplo (int num){
+		
+		if(num%10==0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+// 7 - MÉTODO : Pinta la tabla de multiplicar de 2
+	
+	public void tablaMultiplicar(){
+	
+	for(int i = 1; i<=10; i++){
+		System.out.println(2 +" x "+ i + " = "+ 2 * i);
+	
+	}
+}
+	
+// 8 - MÉTODO : Crea un Array de enteros de 100 posiciones y da valor a cada una de las 
+// posiciones de manera descendente. (la posicion 0 seria =  100 y la 99 a 0)
+	
+	public int [] posicionDescendiente (){
+	
+	int [] entero = new int [101];
+	
+	for (int i = 0; i<=100; i++){
+		entero [i] = 100-i;
+		//System.out.println("enteros en la posicion : " + i +" es igual a " +entero[i]);	
+	 }
+	return entero;
+}
+	
+// 9 - MÉTODO : Pedir un número, comprobar si es primo 
+	
+	public boolean prim (int numero){
+		
+		boolean resultado = true;
+		
+		 for(int i = 2; i<numero; i++) {
+		        if (numero % i == 0) {
+		            resultado = false;
+		       }		        
+    }
+		 return resultado;
+  }
+
+// 10 - MÉTODO : Dado un numero del 1 al 7 muestra el dia de la semana a que corresponde	
+	
+	public void diasSemana (int numer){
+		
+		switch (numer){
+		case 1: System.out.println("Lunes");
+		break;
+		case 2: System.out.println("Martes");
+		break;
+		case 3: System.out.println("Miércoles");
+		break;
+		case 4: System.out.println("Jueves");
+		break;
+		case 5: System.out.println("Viernes");
+		break;
+		case 6: System.out.println("Sábado");
+		break;
+		case 7: System.out.println("Domingo");
+		break;	
+		}		
+	}
