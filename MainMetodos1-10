@@ -1,0 +1,74 @@
+package com.cice.utils;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Utils utiles = new Utils();
+
+	// 1 - Método numerosPosNeg
+		
+		if (utiles.numerosPosNeg(-5)){
+			System.out.println("Número positivo");
+		}else{
+			System.out.println("Número negativo");
+		}
+		
+    // 2 - Método suma
+		
+		System.out.println("El resultado de la suma es " +utiles.suma(54, 76));
+	
+	// 3 - Método saludo + nombre
+	
+		System.out.println("Buenos días " + utiles.saludo ("Susana"));
+	
+	// 4 - Método muestra tamaño String
+	
+		System.out.println(utiles.tam("La vida es bella"));
+		
+	// 5 - Médoto sobre un entero devolver el doble y el triple
+		
+		// OPCIÓN RÁPIDA //
+		//System.out.println("El doble del número es: " +utiles.calculos(34)[0]);
+		//System.out.println("El triple del número es: " +utiles.calculos(34)[1]);
+		
+		for(int i = 0; i<= 1; i++){
+	
+		if(i==0){
+			System.out.println("El doble del número es: " +utiles.calculos(34)[i]);
+		}
+		if(i==1){
+			System.out.println("El triple del número es: " +utiles.calculos(34)[i]);
+	    }
+	 }
+		
+	// 6 - Método Programa que lea un número entero y muestre si el número es múltiplo 
+	// de 10.	
+		
+		System.out.println("Dime si es multiplo de 10 " +utiles.multiplo(30));
+	
+	// 7 - Pinta la tabla de multiplicar de 2
+		
+		utiles.tablaMultiplicar();
+		
+	// 8 - Crea un Array de enteros de 100 posiciones y da valor a cada una de las 
+   // posiciones de manera descendente. (la posicion 0 seria =  100 y la 99 a 0)
+		
+	   int [] ent = utiles.posicionDescendiente();
+	   
+	   for(int i = 0; i<= 100; i++){
+		   System.out.println("Muestrame las posiciones descendente "+ent[i]);
+	   }
+	   
+   // 9 - Pedir un número, comprobar si es primo   
+	   
+	  System.out.println("Soy numero primo " +utiles.prim(27));
+	   
+	   
+  // 10 - Dado un numero del 1 al 7 muestra el dia de la semana a que corresponde   
+	   
+	   utiles.diasSemana(1);
+	   utiles.diasSemana(2);
+	   for (int i = 1; i<= 7; i++){
+		   utiles.diasSemana(i);
+	   }
